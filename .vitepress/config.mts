@@ -2,6 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  base: '/ModpackDesign/',
   srcDir: "docs",
   
   title: "科技整合包路线设计",
